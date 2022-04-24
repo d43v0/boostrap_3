@@ -1,0 +1,17 @@
+Utilidades parte 3 , Flexbox
+-------------------------------------
+CLASES DEL ELEMENTO PADRE
+Display
+    d-flex 
+
+    flex-direccion
+
+    flex-wrap
+
+    justify-content
+
+    align-item
+
+    align-content
+-------------------------------------
+CLASES DE LOS ELEMENTOS HIJO
