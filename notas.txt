@@ -44,11 +44,23 @@ CLASES DEL ELEMENTO PADRE
                                     -center
                                     -between
                                     -around
-                                    
-
 
     align-item
+        //permite alinear en el cross axis de manera vertical y horizontal
+        align-items-start   //al inicio 
+                    -end    // al final 
+                    -center // al centro
+                    -baseline // linea base (por defecto es la primera)
+                    -stretch // eelemento por defecto, se estiran los
+                                elementos siempre y cuando no haya 
+                                un tamaño establecido por el elemento
+
+        Tamaños receptivos
+                align-item-pantalla-start 
+                                    -end
+                                    ...
 
     align-content
+
 -------------------------------------
 CLASES DE LOS ELEMENTOS HIJO
