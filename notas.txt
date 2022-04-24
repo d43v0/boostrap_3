@@ -1,12 +1,34 @@
 Utilidades parte 3 , Flexbox
 -------------------------------------
 CLASES DEL ELEMENTO PADRE
-Display
-    d-flex 
+    Display // mostrar
+        d-flex // pasa de un elemento inline y blocl 
+                //pasa a ser un elemento flexible -> a sus hijos directos
+            tamaño receptivo
+            d-pamtalla-flex
 
     flex-direccion
+        flex-row            --> row
+        flex-row-reverse    --> row reverse
+        flex-column         --> column
+        flex-column-reverse --> column reverse
 
-    flex-wrap
+        Tamaño receptivo 
+            flex-pamtalla-row 
+                            -row-reverse
+                            -column
+                            -column-reverse
+
+    flex-wrap // A los elementos flex, respeta su tamaño y 
+                al repasar el tamaño, opta por hacer mas row o columnas 
+        flex-rowrap // Es el comportamiento por defecto
+                    //al repasar el tamaño, opta por ajustar 
+                    //los elementos a un cierto tamaño        
+        flex-wrap-reverse // lo mismo que flex-wrap pero con orden alrevez de abajo hacia arriba
+        Tamaños receptivos
+            flex-pantalla-nowrap
+                            -wrap
+                            -wrap-reverse
 
     justify-content
 
