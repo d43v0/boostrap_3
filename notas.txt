@@ -19,7 +19,8 @@ CLASES DEL ELEMENTO PADRE
                             -column
                             -column-reverse
 
-    flex-wrap // A los elementos flex, respeta su tamaño y 
+    flex-wrap
+        flex-wrap // A los elementos flex, respeta su tamaño y 
                 al repasar el tamaño, opta por hacer mas row o columnas 
         flex-rowrap // Es el comportamiento por defecto
                     //al repasar el tamaño, opta por ajustar 
@@ -31,6 +32,20 @@ CLASES DEL ELEMENTO PADRE
                             -wrap-reverse
 
     justify-content
+        justify-content-start   // contenido por defecto al inicio
+                        -end    // contenido al final
+                        -center // contenido centrado
+                        -between //altededor de todo el main axis
+                        -around //espacio entre cada elemento tomando en cuenta las esquinas
+        
+        Tamaños receptivos
+            justify-content-pantalla-start
+                                    -end 
+                                    -center
+                                    -between
+                                    -around
+                                    
+
 
     align-item
 
